@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Home Automation</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <!-- <img src="images/menu.png" class="menu-img"> -->
+            <!-- <img src="logo.PNG" class="logo"> -->
+            <!-- <div class="logo"><h1 class="">Home Automation</h1></div> -->
+            <ul>
+                <li class="about"><a href="group.html">About Group</a></li>
+                <li class="on">ON / OFF</li>
+            </ul>
+            <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+        </nav>
+
+        <div class="lamp-container">
+            <img src="lamp.png" class="lamp">
+            <img src="light.png" class="light" id="light">
+        </div>
+
+        <div class="text-container">
+            <h1>Home Automation By : <span class="change_content"></span></h1>
+            <p>Feel the luxury and Live in comfort</p>
+            <a href="switch.html"><b>Switch's</b></a>
+            <!-- <div class="control"> -->
+                <!-- <p>04</p> -->
+                <!-- <div class="line"><span></span></div> -->
+                <!-- <p>05</p> -->
+            <!-- </div> -->
+        </div>
+    </div>
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function toggleBtn()
+        {
+            btn.classList.toggle("active");
+            light.classList.toggle("on");
+        }
+    </script>
+</body>
+</html>

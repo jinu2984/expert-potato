@@ -1,0 +1,21 @@
+.g{
+    font-size: 55px;
+    color: white
+}
+.big{
+    font-size: 40px;
+    color: darkorange;
+    position: relative;
+    margin-bottom: 50px;
+}
+/* body{ */
+    /* background-image: url(code1.jfif); */
+/* } */
+.year{
+    color: darkorange;
+    font-size: 25px;
+}
+
+.black{
+    background: black;
+}
